@@ -1,0 +1,248 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.hero {
+  background-color: #121212;
+  color: #ffffff;;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.hero__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.hero__btn {
+  background: #00bcd4;
+  color: rgb(255, 255, 255);
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.hero__btn:hover {
+  background: #0097a7;
+}
+
+.sneakers {
+  padding: 4rem 2rem;
+  background-color: #f8f8f8;
+}
+.sneakers__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.sneakers__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.sneakers-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.sneakers-card__image {
+  width: 100%;
+  border-radius: 8px;
+}
+.sneakers-card__title {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
+}
+.sneakers-card__price {
+  color: #555;
+  margin-bottom: 1rem;
+}
+.sneakers-card__btn {
+  background: #00bcd4;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sneakers-card__btn:hover {
+  background: #0097a7;
+}
+
+
+.footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 2rem;
+}
+
+.navbar {
+  background-color: #111;
+  padding: 1rem 0;
+  color: white;
+}
+
+.navbar__container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.navbar__link:hover {
+  color: #0097a7;
+}
+
+.contact {
+  padding: 2rem;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.contact__container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact__form input,
+.contact__form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact__form button {
+  padding: 0.75rem;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact__form button:hover {
+  background-color: #0097a7;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #111;
+  padding: 1rem 0;
+  color: white;
+  z-index: 1000; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero{
+    padding: 5rem;
+}
+
+.login {
+  background-color: #121212; 
+  padding: 50px 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.login__container {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.login__form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
+
+.login__form input::placeholder {
+  color: #aaa;
+}
+
+.login__form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00bcd4;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login__form button:hover {
+  background-color: #0097a7;
+}
+
+.login p a {
+  color: #00bcd4;
+  text-decoration: underline;
+}
